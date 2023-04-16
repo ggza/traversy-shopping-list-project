@@ -39,4 +39,10 @@ function createIcon(classes) {
   return icon;
 }
 
+function removeItem(e) {
+  console.log(e.target);
+  e.target.remove();
+}
+
 itemForm.addEventListener('submit', addItem);
+itemList.addEventListener('click', removeItem);
