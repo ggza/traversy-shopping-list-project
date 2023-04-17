@@ -124,7 +124,7 @@ header h1 {
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .items li {
     width: 100%;
   }
